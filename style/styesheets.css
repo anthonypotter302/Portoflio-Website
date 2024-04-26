@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+
+#main-container {
+    background-color: white;
+    width: 1000px;
+    height: 3000px;
+    border: solid 1px black;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#poster-container {
+    height: 611px;
+    width: 900px;
+}
+#logos-container {
+    height: 780px;
+    width: 900px;
+}
+
+#magazine-container {
+    height: 834px;
+    width: 900px;
+}
+
+#showstopper-container {
+    height: 310px;
+    width: 900px;
+}
+
+#heart-container {
+    height: 755px;
+    width: 900px;
+}
