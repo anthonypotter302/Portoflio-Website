@@ -7,34 +7,97 @@ body {
 
 
 #main-container {
-    background-color: white;
+    background-color: #D1E485;
     width: 1000px;
-    height: 3000px;
-    border: solid 1px black;
+    height: 5000px;
+    border: solid 5px #B2D234;
+}
+
+#title-container {
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: #B2D234;
+    height: 280px;
+    width: 1000px;
+}
+
+#ants {
+    width: 250px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#colony {
+    display: flex;
+    justify-content: flex-end;
+    width: 350px;
 }
 
 #poster-container {
     height: 611px;
-    width: 900px;
+    width: 1000px;
+    padding: 20px;
 }
+
 #logos-container {
     height: 780px;
-    width: 900px;
+    width: 1000px;
+}
+
+#left-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 800px;
+    width: 240px;
+    padding-left: 40px;
+}
+
+
+#right-logo {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 520px;
 }
 
 #magazine-container {
     height: 834px;
-    width: 900px;
+    width: 1000px;
+}
+
+#spread {
+    padding: 20px;
+}
+
+#toc {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
 }
 
 #showstopper-container {
     height: 310px;
-    width: 900px;
+    width: 1000px;
+    padding: 20px;
 }
 
 #heart-container {
    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
    height: 755px;
-    width: 900px;
+    width: 1000px;
 }
+
+#heart-text {
+    display: flex;
+    background-color: #B2D234;
+    width: 900px;
+    height: 180px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 14pt;
+}
+
