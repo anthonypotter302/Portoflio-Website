@@ -2,7 +2,7 @@ body {
     margin: 0px;
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: #3B444B;
 }
 
 
@@ -13,26 +13,43 @@ body {
     border: solid 5px #B2D234;
 }
 
-#title-container {
-    display: flex;
-    align-items: center;
-    align-items: flex-end;
-    justify-content: flex-end;
+#back-box {
     background-color: #B2D234;
-    height: 280px;
+    height: 250px;
     width: 1000px;
 }
 
-#ants {
-    width: 250px;
-    padding-right: 20px;
-    padding-left: 20px;
+#title-container {
+    display: flex;
 }
 
-#colony {
+#toplogo {
+    display: flex;
+    justify-content: flex-start;
+    height: 190px;
+    width: 190px;
+    padding: 20px;
+}
+
+#both {
     display: flex;
     justify-content: flex-end;
-    width: 350px;
+    height: 222px;
+    width: 649px;
+    padding: 20px;
+    padding-left: 110px;
+}
+
+#navigation {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    height: 150px;
+    width: 1000px;
+}
+
+#portfolio.nav {
+
 }
 
 #poster-container {
@@ -41,26 +58,35 @@ body {
     padding: 20px;
 }
 
-#logos-container {
-    height: 780px;
-    width: 1000px;
+#logo-container {
+    display: flex;
+    flex-direction: column;
 }
 
 #left-logo {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
     height: 800px;
-    width: 240px;
+    width: 1000px;
     padding-left: 40px;
 }
 
+#RLcontainer {
+    display: flex;
+    justify-content: flex-end;
+    height: 520px;
+    width: 1000px;
+}
 
 #right-logo {
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     flex-direction: column;
+    justify-content: space-between;
     height: 520px;
+    padding-right: 40px;
 }
 
 #magazine-container {
