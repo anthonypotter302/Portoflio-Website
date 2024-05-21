@@ -48,54 +48,59 @@ body {
     width: 1000px;
 }
 
-#portfolio.nav {
+#top-text1 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
 
+#top-text2 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+#top-text3 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 20px;
 }
 
 #poster-container {
+    display: flex;
+    justify-content: space-around;
     height: 611px;
     width: 1000px;
-    padding: 20px;
+    padding-bottom: 80px;
+}
+
+#poster-text {
+    /* display: flex;
+    justify-content: space-between; */
+    background-color: #B2D234;
+    height: 611px;
+    width: 397px;
 }
 
 #logo-container {
-    display: flex;
-    flex-direction: column;
-}
-
-#left-logo {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 800px;
-    width: 1000px;
-    padding-left: 40px;
-}
-
-#RLcontainer {
-    display: flex;
-    justify-content: flex-end;
-    height: 520px;
-    width: 1000px;
-}
-
-#right-logo {
-    display: flex;
-    /* justify-content: flex-end; */
-    flex-direction: column;
-    justify-content: space-between;
-    height: 520px;
-    padding-right: 40px;
-}
-
-#magazine-container {
-    height: 834px;
-    width: 1000px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 80px;
 }
 
 #spread {
-    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 397px;
+    /* width: 1000px; */
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+#spread-text {
+    background-color: #B2D234;
+    height: 397px;
+    width: 245px;
+    padding-right: 50px;
 }
 
 #toc {
@@ -104,10 +109,15 @@ body {
     padding: 20px;
 }
 
+#toc-text {
+    
+}
+
 #showstopper-container {
     height: 310px;
     width: 1000px;
     padding: 20px;
+    padding-bottom: 80px;
 }
 
 #heart-container {
